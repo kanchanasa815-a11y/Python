@@ -5,6 +5,7 @@ print("3.Multiplication")
 print("4.Division")
 print("5.Exit")
 choice=int(input("Enter the choice(1-5):"))
+while(True):
 if choice==1:
     num1=int(input("Enter the number1: "))
     num2=int(input("Enter the number2: "))
@@ -21,6 +22,7 @@ elif choice==4:
     num1=int(input("Enter the number1: "))
     num2=int(input("Enter the number2: "))
     print(num1/num2)
+    Break
 else:
     print("Exiting the calculatoor.GoodBye!")
  Output:
