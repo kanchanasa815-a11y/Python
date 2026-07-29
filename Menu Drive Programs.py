@@ -222,6 +222,78 @@ View the total price 250
 Enter the Choice:  4
 Exit for there.....
 
+QUESTION:
+Educational System:
+
+Write a program with options to:
+Add student details.
+Display student details.
+Exit.
+
+
+class Student:
+            def __init__(self,usn,name,sem):
+                self.usn=usn
+                self.name=name
+                self.sem=sem
+            def display_info(self):
+                print("USN:" ,self.usn)
+                print("Name:" ,self.name)
+                print("sem:", self.sem)
+print("<<<<<<<<<Eduction System>>>>>>>>>>>")
+student=None
+while True:
+    print("\n1.Add STudent Details")
+    print("2.Display Student Details")
+    print("3.Exit")
+
+
+    choice=int(input("Enter the choice: "))
+    if choice==1:
+        usn=int(input("ENter the student usn: "))
+        name=input("ENter the name: ")
+        sem=int(input("Enter the sem: "))
+        student=Student(usn,name,sem)
+        print("Student details added successfully!")
+    elif choice==2:
+         if student:
+            student.display_info()
+         else:
+              print("No student details available.")
+         
+             
+    elif choice==3:
+        print("Exit")
+        break
+    else:
+        print("No more choice.....")
+
+OUTPUT:
+<<<<<<<<<Eduction System>>>>>>>>>>>
+
+1.Add STudent Details
+2.Display Student Details
+3.Exit
+Enter the choice: 1
+ENter the student usn: 043
+ENter the name: kanchana
+Enter the sem: 7
+Student details added successfully!
+
+1.Add STudent Details
+2.Display Student Details
+3.Exit
+Enter the choice: 2
+USN: 43
+Name: kanchana
+sem: 7
+
+1.Add STudent Details
+2.Display Student Details
+3.Exit
+Enter the choice: 3
+Exit
+
 
 
 
