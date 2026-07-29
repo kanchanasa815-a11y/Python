@@ -141,6 +141,88 @@ Enter the amount to Withdraw: 90
 Enter the choice:  4
 Exit form the Banking system
 
+QUESTION:
+Grocery Store Menu:
+
+Create a program where users can:
+Add items to their cart.
+Remove items.
+View the total price.
+Exit.
+
+    def menu():
+    print("------Grocery Store-------")
+    print("1.Add the items to their cart")
+    print("2.Remove items")
+    print("3.View the total Price")
+    print("4.Exit")
+
+cart=0
+total_price=0
+while(True):
+    menu()
+    choice=int(input("Enter the Choice:  "))
+    if choice==1:
+        add=int(input("Enter the number of item: "))
+        price=int(input("Enter item price:"))
+        cart+=add
+        total_price+=add*price
+        print("cart= ",cart)
+        print("total price",total_price)
+    elif choice==2:
+        cancle_item=int(input("Enter the number to remove the item: "))
+        if cart>=cancle_item:
+            price = int(input("Enter the price of one item to remove: "))
+            cart-=cancle_item
+            total_price-=cancle_item*price
+            print("Removed the item",cart)
+        else:
+            print("Insufficent cart")
+    elif choice==3:
+
+        print("View the total price",total_price)
+    elif choice==4:
+        print("Exit for there.....")
+        break
+    else:
+        print("There is no other choice you can exit form here")
+    
+OUTPUT:
+------Grocery Store-------
+1.Add the items to their cart
+2.Remove items
+3.View the total Price
+4.Exit
+Enter the Choice:  1
+Enter the number of item: 8
+Enter item price:50
+cart=  8
+total price 400
+------Grocery Store-------
+1.Add the items to their cart
+2.Remove items
+3.View the total Price
+4.Exit
+Enter the Choice:  2
+Enter the number to remove the item: 3
+Enter the price of one item to remove: 50
+Removed the item 5
+------Grocery Store-------
+1.Add the items to their cart
+2.Remove items
+3.View the total Price
+4.Exit
+Enter the Choice:  3
+View the total price 250
+------Grocery Store-------
+1.Add the items to their cart
+2.Remove items
+3.View the total Price
+4.Exit
+Enter the Choice:  4
+Exit for there.....
+
+
 
 
  
