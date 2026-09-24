@@ -25,5 +25,33 @@ a,b=b,a
 print("a=",a)
 print("b=",b)
 
+Simple Greeting Program: Write a Python program that asks the user for their name and age, then prints a personalized greeting message.
+Use both the + operator and f-strings for output.
+name=input("Enter the name: ")
+age=input("ENter the age: ")
+print(f"hello my name is {name} i am {age} years of old")
+
+String Manipulation Exercise: Write a Python program that:
+
+Takes a sentence as input from the user.
+Prints the sentence in all uppercase and lowercase.
+Replaces all spaces with underscores.
+Removes leading and trailing whitespace.
+Example:
+sentence=input("Enter the sentence: ")
+print(sentence.upper())
+print(sentence.lower())
+print(sentence.replace(" ","__"))
+print(sentence.strip())
+
+Character Counter: Write a Python program that:
+sentence=input("Enter the string: ")
+print(len(sentence))
+
+a="Hello\n\t world\n\t this is a blackslash:\\"
+print(a)
+
+
+
 
 
