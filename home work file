@@ -10,4 +10,20 @@ print(a**b)
 print(a//b)
 print(a%b)
 
+Write a Python program that swaps the values of two variables with and without using a third variable.
+a=int(input("Enter the num1: "))
+b=int(input("Enter the num2: "))
+temp=a
+a=b
+b=temp
+print(a,b)
+
+#swap the two number without usnig the third variable
+a=int(input("Enter the num1: "))
+b=int(input("Enter the num2: "))
+a,b=b,a
+print("a=",a)
+print('b=",b)
+
+
 
