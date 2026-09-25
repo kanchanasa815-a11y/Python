@@ -56,11 +56,59 @@ Logical Operator Practice: Write a Python program that takes two numbers as inpu
 Both numbers are greater than 10 (using and).
 At least one of the numbers is less than 5 (using or).
 The first number is not greater than the second (using not).
-a=int(input("ENter the num1: ")
-b=int(input("Enter the num2: ")
+a=int(input("ENter the num1: "))
+b=int(input("Enter the num2: "))
 print(a>10 and b>10)
-print(a<5 or b>5)
-print(a<b)
+print(a<5 or b<5)
+print(a>b)
+
+Create a Python program that asks the user for their age and prints:
+
+"You are an adult" if the age is greater than or equal to 18.
+"You are a minor" if the age is less than 18.
+Use >= and < comparison operators.
+age=int(input("Enterthe age: "))
+if age>18:
+    print("You are an adult")
+elif age<18:
+    print("You are a minor")
+
+Write a Python program that:
+
+Takes a string as input from the user.
+Checks if the letter 'a' is in the string (using in).
+Checks if the string doesn't contain the word "Python" (using not in).
+string=input("ENter the string:")
+if "a" in string:
+    print("yes")
+else:
+    print("a is not in string")
+
+Given two integers, write a Python program that:
+
+Prints the result of a & b, a | b, and a ^ b.
+Shifts the bits of a two positions to the left (a << 2).
+Shifts the bits of b one position to the right (b >> 1).
+a=int(input("Enter the num1: "))
+b=int(input("Enter the num2: "))
+print(a&b)
+print(a|b)
+print(a^b)
+print(a<<2)
+print(b>>2)
+
+List Manipulation Exercise:
+
+Create a list of 5 items (strings or numbers).
+Add a new item to the end of the list and another at the second position.
+Remove the third item from the list.
+Print the list after each operation.
+
+l=["apple","banana","mango","papaya","orange"]
+l.append("roseberry")
+l.index(2,"berry")
+l.remove(3)
+print(l)
 
 
 
