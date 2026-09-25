@@ -135,6 +135,14 @@ tuple2=("kanchana",)
 combain_tuple=tuple1+tuple2
 print(combain_tuple)
 
+Set Operations:
+
+Create two sets: one with your favorite fruits and another with your friend’s favorite fruits.
+Find the union, intersection, and difference between the two sets.
+Add a new fruit to your set.
+Remove a fruit from your set using both remove() and discard(). What happens when the fruit doesn’t exist?
+
+
 
 
 
