@@ -106,9 +106,20 @@ Print the list after each operation.
 
 l=["apple","banana","mango","papaya","orange"]
 l.append("roseberry")
-l.index(2,"berry")
-l.remove(3)
+l.insert(2,"berry")
+l.pop(3)
 print(l)
+
+Reverse and Sort a List: Create a list of numbers and:
+
+Sort it in descending order.
+Reverse the sorted list and print it.
+num=[3,4,1,2,6,4,7]
+num.sort()
+print(num)
+num.reverse()
+print(num)
+
 
 
 
