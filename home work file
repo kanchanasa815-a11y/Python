@@ -120,6 +120,21 @@ print(num)
 num.reverse()
 print(num)
 
+Tuple Operations:
+
+Create a tuple with 5 elements.
+Try to modify one of the elements. What happens?
+Perform slicing on the tuple to extract the second and third elements.
+Concatenate the tuple with another tuple.
+
+tuple=("apple","banana","orange","mango","painapple")
+print(tuple[2:3])
+
+tuple1=("apple","banana","orange","mango","painapple")
+tuple2=("kanchana",)
+combain_tuple=tuple1+tuple2
+print(combain_tuple)
+
 
 
 
