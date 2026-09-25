@@ -174,6 +174,24 @@ tuple1 = tuple(l)
 tuple1.add("berry")   # ERROR
 print(tuple1)
 
+name_age={
+    "kanchana":21,
+    "prashanth":22,
+    "tharun":18
+}
+print(name_age["kanchana"])
+print(name_age.get("prashanth"))
+print(name_age.get("latha","not found"))
+name_age["latha"]=40
+print(name_age)
+remove_name=name_age.pop("kanchana")
+print(remove_name)
+print(name_age.keys())
+print(name_age.values())
+print(name_age.items())
+name_age.update({"latha":30})
+print(name_age)
+
 
 
 
