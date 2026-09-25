@@ -142,6 +142,22 @@ Find the union, intersection, and difference between the two sets.
 Add a new fruit to your set.
 Remove a fruit from your set using both remove() and discard(). What happens when the fruit doesn’t exist?
 
+set1={"apple","banana","orange","mango","painapple"}
+set2={"latha","ambruthesh","tharun","kanchana","prashanth"}
+print(set1|set2)
+print(set1&set2)
+print(set1-set2)
+set1.add("berry")
+print(set1)
+set1.remove("banana")
+print(set1)
+set1.discard("berry")
+print(set1)
+
+
+
+
+
 
 
 
