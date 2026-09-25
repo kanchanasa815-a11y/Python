@@ -154,6 +154,26 @@ print(set1)
 set1.discard("berry")
 print(set1)
 
+Tuple and Set Comparison:
+
+Create a list of elements and convert it into both a tuple and a set.
+Print both the tuple and the set.
+Try to add new elements to the tuple and set. What differences do you observe?
+
+l = ["apple", "banana", "mango", "papaya", "orange"]
+
+print(set(l))
+print(tuple(l))
+
+set1 = set(l)
+set1.add("berry")
+print(set1)
+
+tuple1 = tuple(l)
+
+tuple1.add("berry")   # ERROR
+print(tuple1)
+
 
 
 
