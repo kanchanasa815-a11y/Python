@@ -339,6 +339,20 @@ for letter in name:
         print("vowel found:", letter)
 print("Total vowels:", count)
 
+List Manipulation:
+Create a list of Kannada foods. Use list comprehension to create a new list where each food name is in uppercase.
+food=["maggi","Dose","idli","purii","paddu"]
+new_list=[item.upper() for item in food]
+print(new_list)
+
+Sum of Prices:
+Create a dictionary of 5 items with their prices. Write a program that calculates the total price of all items using a for loop.
+food={"maggi":60,"Dose":40,"idli":40,"purii":50,"paddu":30}
+total=0
+for item in food:
+    total+=food[item]
+
+print(total)
 
 
 
