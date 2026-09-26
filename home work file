@@ -312,8 +312,33 @@ print("Happy New Year")
 
 Multiples of 3:
 Write a for loop that prints all multiples of 3 between 1 and 30.
-for i in range(1,10):
-print(f"3 * {i} ={3*i}")
+for i in range(1,11):
+    print(f"3 * {i} ={3*i}")
+
+Sum of First 10 Numbers:
+Write a program using a for loop that calculates the sum of numbers from 1 to 10.
+sum=0
+for i in range(1,11):
+    sum+=i
+    print(sum)
+
+Print Your Name Letter by Letter:
+Write a program that takes your name as input and prints each letter of your name using a for loop.
+name="kanchana"
+for letter in name:
+    print(letter)
+
+Count Vowels in a String:
+
+Write a program that counts how many vowels are in a given string using a for loop.
+count=0
+name="kanchana"
+for letter in name:
+    if letter in "AEIOUaeiou":
+        count+=1
+        print("vowel found:", letter)
+print("Total vowels:", count)
+
 
 
 
