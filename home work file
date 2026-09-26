@@ -351,9 +351,58 @@ food={"maggi":60,"Dose":40,"idli":40,"purii":50,"paddu":30}
 total=0
 for item in food:
     total+=food[item]
-
 print(total)
 
+List of Squares:
+Create a list of numbers from 1 to 10. Use list comprehension to generate a list of their squares.
+number=[2,3,4,5,6,7,8]
+square=[num**2 for num in number]
+print(square)
+
+Student Data Task:
+Create a list of 3 dictionaries, where each dictionary contains the name, age, and marks of a student. Loop through the list and print each student's information.
+dict1={
+    "name":"Kanchana",
+    "age":"21",
+    "marks":"40"
+}
+dict2={
+    "name":"Tharun",
+    "age":"18",
+    "marks":"70"
+}
+dict3={
+    "name":"Prashanth",
+    "age":"22",
+    "marks":"90"
+}
+for dicte in dict1.items():
+    print(dicte)
+
+for dicte in dict2.items():
+    print(dicte)
+
+for dicte in dict3.items():
+    print(dicte)
+
+Dictionary Comprehension:
+Create a dictionary where the keys are Kannada cities, and the values are their populations. Use dictionary comprehension to filter out cities with populations below 10 lakhs.
+dict_item={"Banvikallu":2000,"Kudligi":3000,"Kotturu":4000,"Hospet":5000,"Chitradurga":6000 }
+dict_items={city for city in dict_item.values() if city>3000}
+print(dict_items)
+
+Nested List Challenge: Write a Python program that takes a list of lists (a 2D list) as input and:
+Prints the entire matrix row by row.
+Prints the sum of each row in the matrix.
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+for row in matrix:
+    print(row)
+    print("Sum:", sum(row))
 
 
 
