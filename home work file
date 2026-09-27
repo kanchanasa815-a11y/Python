@@ -404,7 +404,15 @@ for row in matrix:
     print(row)
     print("Sum:", sum(row))
 
+Greet Function: Write a function greet() that takes no arguments and prints a greeting message.
+def greet():
+    print("Hello! Welcome to Python Program")
+greet()
 
+Parameterized Greet: Write a function greet_user() that takes a name as input and prints a custom greeting.
+def greet_user(name):
+    print(f"Hello {name} Welcome to learning python program")
+greet_user("kanchana")
 
 
 
