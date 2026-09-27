@@ -414,6 +414,13 @@ def greet_user(name):
     print(f"Hello {name} Welcome to learning python program")
 greet_user("kanchana")
 
+Sum Function: Write a function add_numbers(a, b) that returns the sum of two numbers. Call this function with different values.
+def add_numbers(a,b):
+    return a + b
+result1=add_numbers(5,10)
+result2=add_numbers(result1,30)
+print(result2)
+
 
 
 
