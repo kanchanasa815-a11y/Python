@@ -439,6 +439,37 @@ def average(*args):
     return sum(args)/len(args)
 print(average(10,20,30))
 
+Create a Class:
+Write a class Mobile with attributes brand and price.
+Create two objects of the class and display their attributes using a method.
+class Mobile:
+    def __init__(self,brand,price):
+        self.brand=brand
+        self.price=price
+    def display_info(self):
+        print(f"brand:{self.brand},price:{self.price}")
+mobile=Mobile("Samsung",20000)
+mobile.display_info()
+
+Method Definition:
+Define a class Student with attributes name and marks.
+Write a method display_info() that prints the student's name and marks.
+Create multiple objects of the Student class and call the method on each.
+class Student:
+    def __init__(self,name,marks):
+        self.name=name
+        self.marks=marks
+    def display_info(self):
+        print(f"I am {self.name} and I got {self.marks} marks.")
+
+student=Student("Prashanth",90)
+student1=Student("kanchana",85)
+student.display_info()
+student1.display_info()
+
+
+
+
 
 
 
