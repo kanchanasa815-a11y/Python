@@ -467,6 +467,10 @@ student1=Student("kanchana",85)
 student.display_info()
 student1.display_info()
 
+Create a Class with a Constructor:
+Write a class Movie with attributes title and rating using the __init__() constructor.
+Define a method to display the movie’s title and rating.
+
 
 
 
