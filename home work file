@@ -543,6 +543,23 @@ phone=Phone()
 phone.call_contact()
 phone.take_picture()
 
+Create a base class Vehicle with a start method. Then create a subclass Bike with an additional ride() method.
+Demonstrate how the Bike can use both start and ride
+class Vehicle:
+    def start(self):
+        print("Vehicle is starting")
+
+
+class Bike(Vehicle):
+    def ride(self):
+        print("Bike is riding")
+
+
+bike = Bike()
+
+bike.start()
+bike.ride()
+
 
 
 
