@@ -499,6 +499,49 @@ Encapsulation:
 Create a BankAccount class with private attributes for account_number and balance.
 Add methods to check balance, deposit, and withdraw funds.
 Try accessing the balance directly and observe the result.
+class BankAccount:
+    def __init__(self, account_number, balance):
+        self.__account_number = account_number
+        self.__balance = balance
+
+    def check_balance(self):
+        print("Current balance:", self.__balance)
+
+    def deposit(self, amount):
+        self.__balance += amount
+        print("Deposited successfully!")
+        print("New balance:", self.__balance)
+
+    def withdraw(self, amount):
+        if amount <= self.__balance:
+            self.__balance -= amount
+            print("Withdrawn:", amount)
+            print("New balance:", self.__balance)
+        else:
+            print("Insufficient balance")
+
+
+bank = BankAccount(1000, 5000)
+
+bank.check_balance()
+
+bank.deposit(200)
+
+bank.withdraw(300)
+
+# Trying to access private attribute directly
+print(bank.__balance)
+
+Abstraction:
+Design a Phone class with methods to call_contact and take_picture. Abstract away any internal processing details and focus on creating a user-friendly interface.
+class Phone:
+    def call_contact(self):
+        print("call is contacting")
+    def take_picture(self):
+        print("taking Picture")
+phone=Phone()
+phone.call_contact()
+phone.take_picture()
 
 
 
