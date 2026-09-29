@@ -495,6 +495,12 @@ employee2=Employee("Alice","Developer")
 employee1.display_info()
 employee2.display_info()
 
+Encapsulation:
+Create a BankAccount class with private attributes for account_number and balance.
+Add methods to check balance, deposit, and withdraw funds.
+Try accessing the balance directly and observe the result.
+
+
 
 
 
